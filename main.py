@@ -7,9 +7,9 @@ while not eof:
     try:
         users = [
             ("Loki Laufeyson", 'LoKi@jutun.ygd', 'JurM0ng@n$', '31-12-1000'),  # Should work properly
-            ("Ra", 'SunGod@sky.eg', 'RaMa^Jan@', datetime.now() - timedelta(days=365 * 100)),  # Name too short
-            ("100101001", 'od2001@jupiter.gov', '!Q2w#E4r', '04-03-1968'),  # Name non-char
-            ("Gilgamesh", 'king_of_Uruk', 'Enkidu$$$', datetime.now() - timedelta(days=365 * 100)),  # Illegal email
+            ("Ra", 'SunGod@sky.eg', 'RaMa^Jan@', datetime.now() - timedelta(days=365 * 1000)),  # Name too short
+            ("100101001", 'hal9000@jupiter.gov', '!Q2w#E4r', '04-03-1968'),  # Name non-char
+            ("Gilgamesh", 'king_of_Uruk', 'Enkidu$$$', datetime.now() - timedelta(days=365 * 1000)),  # Illegal email
             ("Dionysus", 'party_guy@olympus.gr', 'ouzo_for_everyone', '01/01/0001'),  # Illegal password
             ("CSM-101", 'Shwatz@Cyberdine.com', 'IlBeB@&k', '01.04.2030'),  # Illegal birthday
             ("Photon", 'here@now.co.uk', '1a@S3d$F', datetime.now()),  # Too young
